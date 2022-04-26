@@ -1,0 +1,8 @@
+name: hello
+description: Hello World, from Solace
+version: 0.1.0
+routes:
+  - path: /
+    handler: src:hello_world
+    methods:
+      - GET
